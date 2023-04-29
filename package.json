@@ -3,8 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.8",
+    "@emotion/styled": "^11.10.8",
+    "@mui/material": "^5.12.2",
+    "d3": "^7.8.4",
+    "leaflet": "^1.9.3",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-bootstrap": "^2.7.4",
+    "react-d3-map-choropleth": "^0.5.1",
+    "react-dom": "^18.1.0",
+    "react-leaflet": "^4.2.1",
+    "topojson-client": "^3.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,5 +23,17 @@
   },
   "devDependencies": {
     "react-scripts": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
